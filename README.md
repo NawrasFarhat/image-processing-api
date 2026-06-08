@@ -30,7 +30,9 @@ A scalable RESTful API built with **Node.js**, **Express**, and **TypeScript** f
 ## 📡 API Endpoint
 
 ### Resize an Image
+```bash
 GET /api/images?filename=<name>&width=<w>&height=<h>
+```
 ---
 
 ## 🚀 Getting Started
