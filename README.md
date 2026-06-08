@@ -30,8 +30,8 @@ A scalable RESTful API built with **Node.js**, **Express**, and **TypeScript** f
 ## 📡 API Endpoint
 
 ### Resize an Image
-```bash
-GET /api/images?filename=<name>&width=<w>&height=<h>
+```
+GET /api/images?filename={name}&width={w}&height={h}
 ```
 ---
 
@@ -72,6 +72,7 @@ npm test
 ---
 
 ## 📁 Project Structure
+```
 image-processing-api/
 ├── src/
 │   ├── routes/         # API route definitions
@@ -82,7 +83,7 @@ image-processing-api/
 ├── dist/               # Compiled JavaScript output
 ├── tsconfig.json
 └── package.json
----
+```
 
 ## 🧪 Testing
 
